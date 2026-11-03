@@ -1,5 +1,6 @@
 n = int(input())
 stack = []
+
 for _ in range(n):
     command = input().split()
     if command[0] == 'a':
@@ -10,4 +11,4 @@ for _ in range(n):
         else:
             print(stack.pop())
     elif command[0] == 'l':
-        print(len(stack))
+        print(len(q))
